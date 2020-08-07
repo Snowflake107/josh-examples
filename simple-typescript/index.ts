@@ -1,5 +1,5 @@
 // You can use "import Josh from 'josh'" instead of this, this is just to access the library instead of installing it.
-import Josh from '../../index.js';
+import Josh from 'josh';
 
 // Create a josh
 // You can initalize a josh the same way as you initalize a normal javascript josh.
