@@ -6,9 +6,9 @@ var db = new Josh({
 });
 
 const express = require('express');
-const bodyParser = require('body-parser');
 const app = express();
-app.use(bodyParser.json());
+app.use(express.json());
+
 // get a :key in the database.
 app.get('/db/:key', (req, res) => {
   db.defer.then(async () => {
